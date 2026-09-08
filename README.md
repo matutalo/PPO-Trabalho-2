@@ -39,3 +39,11 @@
  # Teste:
 
  Testar 5 computadores diferentes, de diferentes redes, depois de horas, dias ou semanas, para testar a eficácia do site.
+
+
+
+ Entidade A	Relacionamento	Entidade B	Cardinalidade
+Jogo	possui	Oferta	1:N
+Plataforma	disponibiliza	Oferta	1:N
+Crawler	realiza	Execução_Crawler	1:N
+Execução_Crawler	encontra	Oferta	N:N
