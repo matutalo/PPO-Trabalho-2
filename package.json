@@ -1,0 +1,12 @@
+{
+  "name": "free-game-seeker",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "crawler": "node crawler.js",
+    "site": "npx --yes serve site"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}

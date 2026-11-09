@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Game Seeker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Free Game Seeker</h1>
+    <p>Veja promoções gratuitas de jogos em tempo real</p>
+  </header>
+
+  <main>
+    <nav id="filtros">
+      <button data-min="0" data-max="0" class="ativo">Grátis</button>
+      <button data-min="0" data-max="10">Até R$ 10</button>
+      <button data-min="10" data-max="20">De R$ 10 a R$ 20</button>
+    </nav>
+    <p id="status">Carregando promoções...</p>
+    <section id="lista" class="grade"></section>
+  </main>
+
+  <footer>
+    <p id="atualizado"></p>
+    <p>Recomendado para maiores de 18 anos: algumas promoções podem ser de jogos com conteúdo adulto.</p>
+    <p>Os links levam direto à loja oficial. Basta ter uma conta na plataforma para resgatar.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
